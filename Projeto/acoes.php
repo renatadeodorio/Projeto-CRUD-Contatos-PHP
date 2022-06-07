@@ -5,9 +5,24 @@ function login() {
  
 }
 function cadastro() {
- include "telas/cadastro.php";
+ if ($_POST) {
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$telas = $_POST['telefone'];
 
+$arquivo = fopen("dados/contatos.csv","a+");
+
+fwrite($arquivo, "{$nome};{$email};{$telefone}".PHP_EOL);
+ 
+
+echo "Pronto! Cadastro realizado!";
+ 
+
+ include "telas/cadastro.php";
+ 
 }
+}
+
 
 function home() {
  include "telas/home.php";
