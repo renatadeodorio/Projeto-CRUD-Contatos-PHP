@@ -1,0 +1,13 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: Stencil Std, fantasy;
+}
+
+p {
+  font-family: Arial Narrow, sans-serif;
+  font-size: 25px;
+}

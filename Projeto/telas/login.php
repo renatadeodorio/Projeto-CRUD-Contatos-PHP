@@ -1,9 +1,9 @@
-<h1>Login</h1>
+<h1>Pagina de Login</h1>
 <hr>
-<form action="">
-<input class= "form-control mb-3" type="text" placeholder="Email">
-
-<input class= "form-control mb-3" type="password" placeholder="senha">
-
-<button class="btn btn-primary">Enviar</button>
+<form action="" method="post">
+    <input class="form-control" type="text" placeholder="Digite seu Email">
+    <br><br>
+    <input class="form-control" type="password" placeholder="Digite sua Senha">
+    <br><br>
+    <button class="btn btn-outline-light btn-lg">Enviar</button>
 </form>

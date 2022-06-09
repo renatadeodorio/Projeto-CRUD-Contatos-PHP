@@ -1,11 +1,19 @@
-<h1>Cadastro</h1>
+<h1>Pagina de Cadastro</h1>
 <hr>
-<form action="" method= "post">
-<input name="nome"class="form-control mt-2" type="text" placeholder="Nome">
 
-<input name="email" class="form-control mt-2" type="password" placeholder="email">
-
-<input name="telefone" class="form-control mt-2" type="password" placeholder="telefone">
-
-<button>Enviar</button>
+<form action="" method="post">
+    <input class="form-control" name="nome'" type="text" placeholder="Digite seu Nome" required>
+    <br>
+    <input class="form-control" name="email" type="text" placeholder="Digite seu Email" required>
+    <br>
+    <input class="form-control" name="telefone" type="tel" placeholder="Digite seu Telefone"
+        required>
+    <br>
+    <button class="btn btn-outline-light btn-lg">Enviar<large/button>
 </form>
+
+
+
+
+
+
