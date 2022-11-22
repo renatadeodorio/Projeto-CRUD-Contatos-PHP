@@ -1,5 +1,5 @@
 # ▶ Projeto Crud de uma agenda de contatos
-Projeto Crud de uma agenda de contatos| BeAcademy | PayLivre | Professor Alessandro Feitoza.
+Projeto Crud de uma agenda de contatos.
 
 ## Autores
 
